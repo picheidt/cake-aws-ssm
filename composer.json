@@ -2,6 +2,7 @@
     "name": "picheidt/cake-aws-ssm",
     "description": "Lib to load env from aws parameters store",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Picheidt\\CakeAwsSsm\\": "src/"
