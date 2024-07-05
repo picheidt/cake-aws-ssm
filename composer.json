@@ -1,24 +1,13 @@
 {
-    "name": "picheidt/cake-aws-ssm",
-    "description": "Lib to load env from aws parameters store",
-    "type": "library",
-    "license": "MIT",
+    "require": {
+        "symfony/console": "^7.1"
+    },
     "autoload": {
         "psr-4": {
             "Picheidt\\CakeAwsSsm\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "vinicius picheidt marques",
-            "email": "viniciuspicheidt@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.6",
-        "symfony/console": "^3.4 || ^4.4 || ^5.4 || ^6.4 || ^7.0"
-    },
     "bin": [
-        "bin/console"
+        "bin/my-cli"
     ]
 }
