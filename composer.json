@@ -1,4 +1,14 @@
 {
+    "name": "picheidt/cakephp-aws-ssm",
+    "description": "CakePHP plugin for AWS SSM",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Picheidt",
+            "email": "picheidt@gmail.com"
+        }
+    ],
     "require": {
         "symfony/console": "^7.1"
     },
