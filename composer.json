@@ -19,5 +19,8 @@
     },
     "bin": [
         "bin/my-cli"
-    ]
+    ],
+    "scripts": {
+        "my-cli": "bin/my-cli"
+    }
 }
